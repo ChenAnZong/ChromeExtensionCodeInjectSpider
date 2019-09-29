@@ -6,11 +6,11 @@
 
 *最重要的是，本插件提供了一种利用插件控制浏览器，通过XHR或者直接操纵DOM获取网页数据的思路。*
 
-#####Thanks 
+Thanks 
 https://github.com/jaubourg/ajaxHooks
 
 
-#####运行步骤：
+运行步骤：
 
 1.启动浏览器
 ```chrome.exe --disable-web-security  --allow-insecure-localhost  --ignore-certificate-errors-spki-list```
@@ -21,8 +21,9 @@ https://github.com/jaubourg/ajaxHooks
   ```python3 server.py```
 
 4.手工进入目标页，在匹配的URL下触发插件运行
-  如 ```https://weixin.sogou.com/weixin?type=2&query=%E5%9B%BD%E5%BA%86+%E7%A5%96%E5%9B%BD&ie=utf8&s_from=input&_sug_=n&_sug_type_=
-```
+  如 
+  https://weixin.sogou.com/weixin?type=2&query=%E5%9B%BD%E5%BA%86+%E7%A5%96%E5%9B%BD&ie=utf8&s_from=input&_sug_=n&_sug_type_=
+
 
 This is a chrome extension spider simple,
 You can regard this project as a common chrome extension template，and this is a nice project to help you start Chrome Extension!
